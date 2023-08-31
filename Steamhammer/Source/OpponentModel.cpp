@@ -462,7 +462,7 @@ OpponentModel::OpponentModel()
     // TODO Obviously not a thorough job.
     std::replace(name.begin(), name.end(), ' ', '_');
 
-    _filename = "om_" + name + ".txt";
+    _filename = "VolasBot_vs_" + name + ".txt";
 }
 
 // Read past game records from the opponent model file, and do initial analysis.
@@ -521,8 +521,8 @@ void OpponentModel::write()
 {
     if (Config::IO::WriteOpponentModel)
     {
-        std::ofstream outFile(Config::IO::WriteDir + _filename, std::ios::trunc);
-
+        std::ofstream outFile(Config::IO::WriteDir + _filename, std::ios::app);
+        // std::ofstream outFile(Config::IO::WriteDir + _filename, std::ios::trunc);
         // If it fails, there's not much we can do about it.
         if (outFile.bad())
         {
@@ -539,7 +539,7 @@ void OpponentModel::write()
 
         // Rewrite any old records that were read in.
         // Not needed for local testing or for SSCAIT, necessary for other competitions.
-        for (GameRecord * record : _pastGameRecords)
+        /*for (GameRecord * record : _pastGameRecords)
         {
             if (nToSkip > 0)
             {
@@ -549,7 +549,7 @@ void OpponentModel::write()
             {
                 record->write(outFile);
             }
-        }
+        }*/
 
         // And write the record of this game.
         _gameRecord.write(outFile);

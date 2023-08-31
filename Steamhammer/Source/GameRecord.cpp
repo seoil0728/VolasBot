@@ -473,32 +473,18 @@ void GameRecord::write(std::ostream & output)
         expectedEnemyPlan = OpponentModel::Instance().getInitialExpectedEnemyPlan();
     }
 
-    output << latestRecordFormat << '\n';
-    output <<
-        RaceChar(ourRace) <<
-        'v' <<
-        (enemyIsRandom ? "R" : "") << RaceChar(enemyRace) << '\n';
-    output << mapName << '\n';
-    output << myStartingBaseID << '\n';
-    output << enemyStartingBaseID << '\n';
+    output << "Our Race : " << RaceChar(ourRace) << '\n';
+    output << "Enemy Race : " << (enemyIsRandom ? "Random " : "") << RaceChar(enemyRace) << '\n';
+    output << "Map Name : " << mapName << '\n';
     output << openingName << '\n';
-    output << OpeningPlanString(expectedEnemyPlan) << '\n';
-    output << OpeningPlanString(enemyPlan) << '\n';
-    output << (win ? '1' : '0') << '\n';
-
-    output << frameWeMadeFirstCombatUnit << '\n';
-    output << frameWeGatheredGas << '\n';
-
-    output << frameEnemyScoutsOurBase << '\n';
-    output << frameEnemyGetsCombatUnits << '\n';
-    output << frameEnemyUsesGas << '\n';
-    output << frameEnemyGetsAirUnits << '\n';
-    output << frameEnemyGetsStaticAntiAir << '\n';
-    output << frameEnemyGetsMobileAntiAir << '\n';
-    output << frameEnemyGetsCloakedUnits << '\n';
-    output << frameEnemyGetsStaticDetection << '\n';
-    output << frameEnemyGetsMobileDetection << '\n';
-    output << frameGameEnds << '\n';
+    if (win)
+    {
+        output << "Win" << '\n';
+    }
+    else
+    {
+        output << "Lose" << '\n';
+    }
 
     // TODO skip the snapshots for v3.0
     // for (const auto & snap : snapshots)

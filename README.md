@@ -12,3 +12,8 @@ MovabivaBot is Starcraft BroodWar AI Bot play every race, But Zerg Main.
 It is based on Steamhammer, use BOSS System.   
 VS2019, BWAPI 4.4.0, Environment variable : BWAPI_DIR for BWAPI 4.4.0.   
 
+
+## Updated
+Game Record System Modified.
+Use Specific Strategy compare to Steamhammer.
+UseEnemySpecificStrategy in Config File Modified.

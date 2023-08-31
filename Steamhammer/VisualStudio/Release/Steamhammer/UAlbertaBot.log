@@ -1,8 +1,8 @@
-﻿  UAlbertaBotModule.cpp
+﻿  OpponentModel.cpp
      Creating library C:\Libraries\VolasBot\src\Steamhammer\VisualStudio\\..\bin\Steamhammer.lib and object C:\Libraries\VolasBot\src\Steamhammer\VisualStudio\\..\bin\Steamhammer.exp
   Generating code
-  129 of 11600 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+  4 of 11599 functions (<0.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    75 functions had inline decision re-evaluated but remain unchanged
+    25 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   UAlbertaBot.vcxproj -> C:\Libraries\VolasBot\src\Steamhammer\bin\Steamhammer.dll
