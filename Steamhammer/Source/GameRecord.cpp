@@ -476,14 +476,14 @@ void GameRecord::write(std::ostream & output)
     output << "Our Race : " << RaceChar(ourRace) << '\n';
     output << "Enemy Race : " << (enemyIsRandom ? "Random " : "") << RaceChar(enemyRace) << '\n';
     output << "Map Name : " << mapName << '\n';
-    output << openingName << '\n';
+    output << "Opening : " << openingName << '\n';
     if (win)
     {
-        output << "Win" << '\n';
+        output << "Result : Win" << '\n';
     }
     else
     {
-        output << "Lose" << '\n';
+        output << "Result : Lose" << '\n';
     }
 
     // TODO skip the snapshots for v3.0

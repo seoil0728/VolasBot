@@ -12,12 +12,12 @@ namespace Config
     {
         bool ConfigFileFound                = false;
         bool ConfigFileParsed               = false;
-        std::string ConfigFileLocation      = "bwapi-data/AI/Steamhammer_3.5.11.json";
+        std::string ConfigFileLocation      = "bwapi-data/AI/VolasBot.json";
     }
 
     namespace IO
     {
-        std::string ErrorLogFilename		= "Steamhammer_ErrorLog.txt";
+        std::string ErrorLogFilename		= "VolasBot_ErrorLog.txt";
         bool LogAssertToErrorFile			= false;
 
         std::string StaticDir               = "bwapi-data/AI/";

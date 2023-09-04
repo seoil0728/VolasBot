@@ -22,3 +22,8 @@ BOSS/VisualStudio/BOSS.VC.db
 *.map
 *.pdb
 *.ilk
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+.vs

@@ -13,7 +13,12 @@ It is based on Steamhammer, use BOSS System.
 VS2019, BWAPI 4.4.0, Environment variable : BWAPI_DIR for BWAPI 4.4.0.   
 
 
-## Updated
-Game Record System Modified.
-Use Specific Strategy compare to Steamhammer.
-UseEnemySpecificStrategy in Config File Modified.
+## Updated 
+230901   
+Game Record System Modified.   
+Use Specific Strategy compare to Steamhammer.   
+UseEnemySpecificStrategy in Config File Modified.   
+
+230905   
+Use own file name, config file.   
+Strategy Updated.   

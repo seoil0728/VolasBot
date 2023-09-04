@@ -76,7 +76,7 @@
 
     "IO" :
     {
-      "ErrorLogFilename"      : "bwapi-data/write/Steamhammer_ErrorLog.txt",
+      "ErrorLogFilename"      : "bwapi-data/write/VolasBot_ErrorLog.txt",
       "LogAssertToErrorFile"  : true,
 
       "StaticDirectory"       : "bwapi-data/AI/",
@@ -120,13 +120,27 @@
 	"McRave" : { "Zerg" : [
                 { "Weight" :  10, "Strategy" : "Phlegethon" },
                 { "Weight" :  5, "Strategy" : "9PoolSpeed" },
-                { "Weight" :  1, "Strategy" : "973HydraBust" },
-                { "Weight" :  3, "Strategy" : "ZvP_5HatchPoolHydra" },
-                { "Weight" :  3, "Strategy" : "ZvP_3HatchPoolHydra" },
-                { "Weight" :  6, "Strategy" : "11Gas10PoolLurker" }
-            ]}
-    },
+                { "Weight" :  5, "Strategy" : "9PoolHatch" },
+                { "Weight" :  1, "Strategy" : "11Gas10PoolLurker" }
+            ]},
+	"Terminus" : { "Zerg" : [
+                { "Weight" :  10, "Strategy" : "9PoolFastLurker" },
+                { "Weight" :  5, "Strategy" : "9PoolLurker" },
+                { "Weight" :  1, "Strategy" : "6PoolHide" },
+                { "Weight" :  15, "Strategy" : "OverpoolLurker" },
+                { "Weight" :  1, "Strategy" : "2HatchLurker" },
+	    { "Weight" : 10, "Strategy" : "Over10HatchHydraB" }
+	]},
+	"krasi0" : { "Zerg" : [
+                { "Weight" :  10, "Strategy" : "9PoolFastLurker" },
+                { "Weight" :  10, "Strategy" : "ZvT_3HatchMuta" },
+                { "Weight" :  10, "Strategy" : "ZvT_12PoolMuta" },
+                { "Weight" :  5, "Strategy" : "AntiFact_Overpool9Gas" },
+                { "Weight" :  1, "Strategy" : "2HatchLurker" },
+	    { "Weight" : 10, "Strategy" : "2.5HatchMutaExpo" }
+	]}
 
+    },
         "ZvT" :
             { "Zerg" : [
                 { "Weight" :  0, "Strategy" : "FastPool", "Weight2" : 10 },

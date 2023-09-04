@@ -45,7 +45,7 @@ protected:
     const int snapshotInterval = 30 * 24;
 
     const std::string latestRecordFormat = "3.0";
-    const std::string gameEndMark = "END GAME";
+    const std::string gameEndMark = "============================";
 
     // Each game record is labeled with a version number, to allow backward compatibility
     // when the file format changes.
