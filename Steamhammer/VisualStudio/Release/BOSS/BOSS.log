@@ -10,19 +10,19 @@
   BOSS.cpp
   BuildingData.cpp
   CombatSearch_BestResponse.cpp
-C:\Libraries\VolasBot\src\BOSS\source\ActionInProgress.cpp(54,27): warning C4267: 'return': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(265,124): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(269,122): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(273,118): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(287,124): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(291,122): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(295,118): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(309,124): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(313,122): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(317,118): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(344,45): warning C4267: 'return': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(444,71): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(584,60): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionInProgress.cpp(54,27): warning C4267: 'return': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(265,124): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(269,122): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(273,118): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(287,124): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(291,122): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(295,118): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(309,124): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(313,122): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(317,118): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(344,45): warning C4267: 'return': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(444,71): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\ActionTypeData.cpp(584,60): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
   CombatSearch_BestResponseData.cpp
   CombatSearch_Bucket.cpp
   CombatSearch_BucketData.cpp
@@ -35,57 +35,57 @@ C:\Libraries\VolasBot\src\BOSS\source\ActionTypeData.cpp(584,60): warning C4267:
   DFBB_BuildOrderSearchParameters.cpp
   DFBB_BuildOrderSearchResults.cpp
   DFBB_BuildOrderSmartSearch.cpp
-C:\Libraries\VolasBot\src\BOSS\source\BuildOrderSearchGoal.cpp(122,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\BuildOrderSearchGoal.cpp(122,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
   DFBB_BuildOrderStackSearch.cpp
   Eval.cpp
   GameState.cpp
   HatcheryData.cpp
   BOSSLogger.cpp
   JSONTools.cpp
-C:\Libraries\VolasBot\src\BOSS\source\CombatSearch_Integral.cpp(31,60): warning C4267: 'initializing': conversion from 'size_t' to 'BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\CombatSearch_Integral.cpp(31,60): warning C4267: 'initializing': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\CombatSearch_Integral.cpp(31,60): warning C4267: 'initializing': conversion from 'size_t' to 'BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\CombatSearch_Integral.cpp(31,60): warning C4267: 'initializing': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
   NaiveBuildOrderSearch.cpp
   PrerequisiteSet.cpp
   Tools.cpp
   UnitData.cpp
-C:\Libraries\VolasBot\src\BOSS\source\HatcheryData.cpp(22,121): warning C4267: 'initializing': conversion from 'size_t' to 'BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\HatcheryData.cpp(114,30): warning C4267: 'return': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Eval.cpp(91,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\GameState.cpp(731,75): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\GameState.cpp(750,93): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\GameState.cpp(771,74): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\GameState.cpp(826,75): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\GameState.cpp(845,93): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\GameState.cpp(864,74): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(106,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(139,84): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(155,84): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(205,79): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(221,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(242,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(271,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\NaiveBuildOrderSearch.cpp(57,87): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\NaiveBuildOrderSearch.cpp(79,66): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\NaiveBuildOrderSearch.cpp(90,87): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\NaiveBuildOrderSearch.cpp(107,84): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\NaiveBuildOrderSearch.cpp(129,73): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\NaiveBuildOrderSearch.cpp(193,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\PrerequisiteSet.cpp(46,12): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\PrerequisiteSet.cpp(82,38): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\PrerequisiteSet.cpp(82,65): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\PrerequisiteSet.cpp(107,35): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\PrerequisiteSet.cpp(117,60): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\PrerequisiteSet.cpp(117,87): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\UnitData.cpp(326,59): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\UnitData.cpp(327,59): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\UnitData.cpp(416,82): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(13,104): warning C4267: 'initializing': conversion from 'size_t' to 'BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(19,97): warning C4267: 'initializing': conversion from 'size_t' to 'BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(67,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(89,66): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(105,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(351,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(374,16): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(384,66): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-C:\Libraries\VolasBot\src\BOSS\source\Tools.cpp(411,63): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
-  BOSS.vcxproj -> C:\Libraries\VolasBot\src\BOSS\bin\BOSS.lib
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Eval.cpp(91,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\HatcheryData.cpp(22,121): warning C4267: 'initializing': conversion from 'size_t' to 'BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\HatcheryData.cpp(114,30): warning C4267: 'return': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\GameState.cpp(731,75): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\GameState.cpp(750,93): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\GameState.cpp(771,74): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\GameState.cpp(826,75): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\GameState.cpp(845,93): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\GameState.cpp(864,74): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(106,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(139,84): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(155,84): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(205,79): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(221,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(242,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\DFBB_BuildOrderSmartSearch.cpp(271,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\PrerequisiteSet.cpp(46,12): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\PrerequisiteSet.cpp(82,38): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\PrerequisiteSet.cpp(82,65): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\PrerequisiteSet.cpp(107,35): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\PrerequisiteSet.cpp(117,60): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\PrerequisiteSet.cpp(117,87): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\NaiveBuildOrderSearch.cpp(57,87): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\NaiveBuildOrderSearch.cpp(79,66): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\NaiveBuildOrderSearch.cpp(90,87): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\NaiveBuildOrderSearch.cpp(107,84): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\NaiveBuildOrderSearch.cpp(129,73): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\NaiveBuildOrderSearch.cpp(193,80): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\UnitData.cpp(326,59): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\UnitData.cpp(327,59): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\UnitData.cpp(416,82): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(13,104): warning C4267: 'initializing': conversion from 'size_t' to 'BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(19,97): warning C4267: 'initializing': conversion from 'size_t' to 'BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(67,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(89,66): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(105,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(351,86): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::ActionID', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(374,16): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(384,66): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+C:\Workspace\VolasBot\VolasBot\BOSS\source\Tools.cpp(411,63): warning C4267: 'argument': conversion from 'size_t' to 'const BOSS::UnitCountType', possible loss of data
+  BOSS.vcxproj -> C:\Workspace\VolasBot\VolasBot\BOSS\bin\BOSS.lib
