@@ -135,7 +135,7 @@ namespace Config
         int ProductionJamFrameLimit			= 360;
         int WorkersPerRefinery              = 3;
         double WorkersPerPatch              = 3.0;
-        int AbsoluteMaxWorkers				= 75;
+        int AbsoluteMaxWorkers				= 70;
         int BuildingSpacing                 = 1;
         int PylonSpacing                    = 3;
         bool ExpandToIslands				= false;

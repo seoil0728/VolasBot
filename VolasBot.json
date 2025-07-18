@@ -29,8 +29,8 @@
     "BOSSFrameLimit"            : 160,
     "ProductionJamFrameLimit"   : 1440,
     "WorkersPerRefinery"        : 3,
-    "WorkersPerPatch"           : { "Zerg" : 1.6, "Protoss" : 2.0, "Terran" : 2.0 },
-    "AbsoluteMaxWorkers"        : 65,
+    "WorkersPerPatch"           : { "Zerg" : 1.7, "Protoss" : 2.0, "Terran" : 2.0 },
+    "AbsoluteMaxWorkers"        : 70,
     "BuildingSpacing"           : 1,
     "PylonSpacing"              : 3
   },
@@ -118,8 +118,8 @@
     "EnemySpecificStrategy" : {
     	"UAlbertaBot" : "OverpoolTurtle",
 	"McRave" : { "Zerg" : [
-                { "Weight" :  10, "Strategy" : "Phlegethon" },
-                { "Weight" :  5, "Strategy" : "9PoolSpeed" },
+                { "Weight" :  14, "Strategy" : "Phlegethon" },
+                { "Weight" :  2, "Strategy" : "9PoolSpeed" },
                 { "Weight" :  5, "Strategy" : "9PoolHatch" },
                 { "Weight" :  1, "Strategy" : "11Gas10PoolLurker" }
             ]},
@@ -140,15 +140,19 @@
 	    { "Weight" : 10, "Strategy" : "2.5HatchMutaExpo" }
 	]},
 	"WillyT" : { "Zerg" : [
-                { "Weight" :  3, "Strategy" : "vsWillySuperRich" },
-                { "Weight" :  4, "Strategy" : "9PoolFastLurker" },
-                { "Weight" :  0, "Strategy" : "2HatchLurker" },
-                { "Weight" :  2, "Strategy" : "9PoolSpeed" }
+                { "Weight" :  2, "Strategy" : "vsWillySuperRich" },
+                { "Weight" :  0, "Strategy" : "AntiFactoryHydra" },
+                { "Weight" :  2, "Strategy" : "2HatchLurker" },
+                { "Weight" :  1, "Strategy" : "9PoolSpeed" }
 	]}
 
     },
         "ZvT" :
             { "Zerg" : [
+		{ "Weight" :  1, "Strategy" : "vsWillySuperRich" },
+		{ "Weight" :  1, "Strategy" : "9PoolSpeed" },
+		{ "Weight" :  1, "Strategy" : "ZvT_12PoolMuta" },
+		{ "Weight" :  1, "Strategy" : "7-7HydraLingRush" },
                 { "Weight" :  1, "Strategy" : "Volas_11HatchLurker" }
             ]},
 

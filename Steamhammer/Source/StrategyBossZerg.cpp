@@ -3595,6 +3595,11 @@ void StrategyBossZerg::produceOtherStuff(int & mineralsLeft, int & gasLeft, bool
         !isBeingBuilt(BWAPI::UnitTypes::Zerg_Hatchery))
     {
         bool makeIt = true;
+
+        int baseGas = nGas + nFreeGas;
+        if (baseGas > 2 && nHatches < baseGas * 2)
+            makeIt = false;
+
         MacroLocation loc = hiddenBaseNext() ? MacroLocation::Hidden : MacroLocation::Expo;
         if (OpponentModel::Instance().getDarnLikelyEnemyPlan() == OpeningPlan::FastRush &&
             nHatches <= 1 &&
