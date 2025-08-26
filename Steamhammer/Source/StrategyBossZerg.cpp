@@ -3596,11 +3596,13 @@ void StrategyBossZerg::produceOtherStuff(int & mineralsLeft, int & gasLeft, bool
     {
         bool makeIt = true;
 
-        int baseGas = nGas + nFreeGas;
-        if (baseGas > 2 && nHatches < baseGas * 2)
-            makeIt = false;
-
         MacroLocation loc = hiddenBaseNext() ? MacroLocation::Hidden : MacroLocation::Expo;
+
+        if (nBases > 1 && nBases * 3 > nHatches - 1)
+        {
+            loc = MacroLocation::Main;
+        }
+
         if (OpponentModel::Instance().getDarnLikelyEnemyPlan() == OpeningPlan::FastRush &&
             nHatches <= 1 &&
             the.bases.baseCount(_enemy) <= 1)

@@ -3,7 +3,8 @@
 BWAPI (BroodWar API) : BroodWar AI Development with STARTcraft.   
 
 ## Thanks to
-Jay Scott : Open Source of Steamhammer.   
+Jay Scott : Open Source of Steamhammer.  
+https://github.com/kant2002/steamhammer   
 Dave Churchill : Lecture Video about STARTcraft, BWAPI.   
 https://github.com/davechurchill/STARTcraft
 

@@ -50,7 +50,6 @@ void UAlbertaBotModule::onStart()
         }
     }
     BWAPI::Broodwar->sendText("VolasBot is based on Steamhammer.");
-    BWAPI::Broodwar->sendText("special thanks to Jay Scott and Dave Churchill.");
     // Turn off latency compensation, which is on by default.
     // BWAPI::Broodwar->setLatCom(false);
 
